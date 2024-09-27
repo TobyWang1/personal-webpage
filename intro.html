@@ -2,40 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bio - [Your Name]</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="bio.html" aria-current="page">Bio</a>
-        </li>
-        <li>
-          <a href="experience.html">Experience</a>
-        </li>
-        <li>
-          <a href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+            <nav class="nav-bar">
+            <a href="index.html" aria-current="page">
+                <img src="images/home-icon.webp" alt="Lorem ipsum icon" width="80" height="80"/>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                <a href="intro.html">Intro</a>
+                </li>
+                <li class="nav-item">
+                <a href="experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                <a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+            </nav>
+    </header>
 
-  <main>
-    <h1>Bio</h1>
-  </main>
+    <main>
+        <div class="hero">
+            <h1>What is Lorem Ipsum?</h1>
+            <p>A deep dive into the history and importance of the most famous placeholder text.</p>
+            <img src="images/lorem-ipsum-intro.webp" alt="a lady's profile photo constructed by lorem ipsum text" width="500" height="500" />
+        <div>
+        <div class="history">
+            <h2>The Origins</h2>
+            <p>
+            Lorem Ipsum dates back to the 1500s, when an unknown printer scrambled a type specimen book to create this
+            standardized dummy text. It has survived not only five centuries, but also the leap into electronic typesetting.
+            </p>
+            <blockquote>"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC."</blockquote>
+            <img src="images/cicero.png" alt="cicero statue"/>
+        </div>
+        <div class="why-lorem">
+            <h2>Why Use Lorem Ipsum</h2>
+            <p>
+              Lorem Ipsum is often used because it provides a realistic pattern of letters, making it perfect for previewing layouts without being distracted by meaningful content.
+            </p>
+            <ul>
+              <li><strong>Focus on design</strong>: It allows you to focus on the look and feel of a project without the distraction of readable content.</li>
+              <li><strong>Neutral text</strong>: The text is nonsensical, so it doesn't trigger user bias or comprehension.</li>
+              <li><strong>Customizable</strong>: You can generate as much or as little Lorem Ipsum as needed for any project.</li>
+            </ul>
+        </div>
+        <div class="trivia">
+            <h2>Lorem Ipsum Trivia</h2>
+            <button id="reveal-btn" class="btn btn-primary" onclick="toggleTrivia()">Click me to reveal</button>
+            <ul id="trivia-list" hidden>
+              <li>Lorem Ipsum has been the industry standard since the 1500s.</li>
+              <li>It's based on a piece of classical Latin literature by Cicero.</li>
+              <li>There are numerous variants like "Cupcake Ipsum" and "Zombie Ipsum" for fun!</li>
+            </ul>
+        </div>
+    </main>
 
-  <footer>
-    <p>Copyright &copy; 2024 [Your Name]</p>
-  </footer>
+    <footer>
+            <p>Copyright &copy; 2024 Lorem Ipsum</p>
+    </footer>
 </body>
 
 </html>
