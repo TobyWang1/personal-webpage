@@ -24,9 +24,16 @@ main {
   justify-content: center;
 }
 
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75%;
+}
+
 footer {
   text-align: center;
-  padding: 10px 0;
+  padding: 80px 10px 0 0 ;
 }
 
 h1,
@@ -48,11 +55,33 @@ h2 a {
 }
 
 h2 a:hover {
-  color: grey;
+  color: #BB3C3C;
 }
 
-img {
-  max-width: 100%;
+main img {
+  display: block;
+  max-width: 50%;
+  max-height: 35%;
+  width: auto;
+  height: auto;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.btn-primary {
+  background-color: #BB3C3C !important;
+  border-color: #BB3C3C !important;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  transition: transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn-primary:active {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.8); /* Add shadow effect when clicked */
+  transform: translateY(2px); /* Optional: slight button press effect */
 }
 
 .nav-bar {
@@ -73,7 +102,7 @@ img {
 }
 
 .nav-menu a:hover{
-  color: grey;
+  color: #BB3C3C;
 }
 
 li {
