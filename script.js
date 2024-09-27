@@ -1,3 +1,5 @@
+document.getElementById('reveal-btn').addEventListener('click', toggleTrivia)
+
 function toggleTrivia() {
     let triviaList = document.getElementById('trivia-list');
     let output = document.getElementById('reveal-btn')
